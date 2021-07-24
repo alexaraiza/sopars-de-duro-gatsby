@@ -2,8 +2,7 @@ import * as React from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import Card from "../components/card";
-import * as indexStyles from "./index.module.css";
+import Grid from "../components/grid";
 import "../styles/index.css";
 
 export const query = graphql`
@@ -29,11 +28,9 @@ const ElsMeusPlats = ({ data }) => {
 
   return (
     <Layout>
-      <main className={indexStyles.grid}>
-        {allRecipes.map((recipe) => <Card recipe={recipe.node} />)}
-      </main>
+      <Grid recipes={allRecipes} />
     </Layout>
-  )
+  );
 }
 
 export default ElsMeusPlats;
