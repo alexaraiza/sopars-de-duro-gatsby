@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    gap: 3em;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    margin: 3em auto;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .grid {
+        width: 720px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .grid {
+        width: 960px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .grid {
+        width: 1140px;
+    }
+}
