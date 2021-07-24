@@ -3,6 +3,7 @@ module.exports = {
     title: "Sopars de duro",
     siteUrl: "https://alexaraiza.github.io/sopars-de-duro/"
   },
+  pathPrefix: "/sopars-de-duro",
   plugins: [
     {
       resolve: "gatsby-source-filesystem",
