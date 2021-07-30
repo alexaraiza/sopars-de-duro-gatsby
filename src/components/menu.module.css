@@ -15,17 +15,6 @@
     transform: unset;
 }
 
-.menu nav {
-    border-top: 1px solid #bfbfbf;
-    padding-right: 3rem;
-}
-
-.menu nav a {
-    margin: 1em 0;
-    height: max-content;
-    width: max-content;
-}
-
 .closeBtn {
     align-self: flex-end;
     background: transparent;

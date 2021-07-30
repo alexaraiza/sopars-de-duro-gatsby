@@ -1,0 +1,54 @@
+.nav {
+    align-items: flex-start;
+    border-top: 1px solid #bfbfbf;
+}
+
+.nav > * {
+    margin: 1em 0;
+}
+
+.nav > a {
+    padding-right: 3rem;
+}
+
+.expandGroup {
+    width: 100%;
+}
+
+.expandGroup > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expandBtn {
+    background: transparent;
+    border: 0;
+    color: #5f5f5f;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0;
+    position: relative;
+}
+
+.linkList {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 0;
+    margin-left: 1em;
+    overflow-y: hidden;
+    transition: height 300ms cubic-bezier(0, 0, 0, 1);
+}
+
+.linkList > a {
+    margin: 0.25em 0;
+}
+
+.linkList > a:first-child {
+    margin-top: 0.75em;
+}
+
+.disappear {
+    transition: opacity 300ms cubic-bezier(0, 0, 0, 1);
+}
