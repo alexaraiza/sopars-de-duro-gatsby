@@ -1,0 +1,14 @@
+.tags {
+    border-top: 1px solid #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.grid {
+    display: grid;
+    row-gap: 0.25em;
+    grid-template-columns: auto auto;
+    font-size: 0.875rem;
+    overflow-y: scroll;
+}
